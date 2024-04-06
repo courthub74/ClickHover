@@ -12,3 +12,13 @@ circle.addEventListener('mouseover', function () {
 circle.addEventListener('mouseout', function () {
     circle.classList.remove('blue');
 });
+
+
+circle.addEventListener('click', function() {
+    circle.classList.add('blue');
+    // Timer for Mobile
+    function reverse_circle() {
+        circle.classList.remove('blue');
+    }
+    setTimeout(reverse_circle, 3000);
+});
