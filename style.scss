@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .circle {
+        height: 20em;
+        width: 20em;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        h1 {
+            color: white;
+        }
+    }
+    #circle.blue {
+        background-color: blue;
+    }
+}

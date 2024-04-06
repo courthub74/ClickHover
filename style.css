@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .circle {
+  height: 20em;
+  width: 20em;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body .circle h1 {
+  color: white;
+}
+body #circle.blue {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */
