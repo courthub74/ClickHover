@@ -18,9 +18,6 @@ body .circle {
 body .circle h1 {
   color: white;
 }
-
-@media (hover: hover) and (pointer: fine) {
-  #circle.blue {
-    background-color: blue;
-  }
+body #circle.blue {
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */

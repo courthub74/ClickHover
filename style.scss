@@ -17,13 +17,32 @@ body {
             color: white;
         }
     }
-    // #circle.blue {
-    //     background-color: blue;
-    // }
-}
-
-@media(hover: hover) and (pointer: fine) {
     #circle.blue {
         background-color: blue;
     }
+}
+
+// // Lets try media queries
+// @media (hover: hover) {
+//     // targets devices that can hover
+//     body {
+//         background-color: steelblue;
+//     }
+// }
+
+// @media (hover: none) {
+//     // targets devices that don't hover
+//     body {
+//         background-color: brown;
+//     }
+// }
+
+// Touch Device (Mobile and Apple TV etc.)
+@media (pointer: course) {
+
+}
+
+// Mouse (Desktop)
+@media (pointer: fine) {
+
 }
